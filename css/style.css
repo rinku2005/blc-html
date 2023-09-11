@@ -172,8 +172,9 @@ body {
     margin: 20px 0;
 }
 
+
 .team {
-    padding: 10px 0;
+    padding: 0px 36px 0 0;
     margin: 0;
 }
 
@@ -275,7 +276,7 @@ body {
 
 
 .service_wrapper {
-    padding: 60px 0;
+    padding: 50px 0;
     margin: 0;
 }
 
@@ -289,13 +290,13 @@ body {
 }
 
 .service_wrapper p {
+    padding: 20px 0 70px 0px;
+    line-height: 36px;
     max-width: 600px;
     width: 100%;
     font-size: 20px;
     margin: 0 auto;
-    padding: 20px 0;
     text-align: center;
-    line-height: 30px;
 }
 
 .service-box1 {
@@ -361,7 +362,7 @@ body {
 
 
 .gro_wrapper {
-    padding: 60px 0;
+    padding: 0px 0 24px 0;
     margin: 0;
 }
 
@@ -427,7 +428,8 @@ body {
 
 
 .model_wrapper {
-    padding: 80px 0 110px 0;
+    padding-top: 80px;
+    padding-bottom: 110px;
     margin: 0;
     background-color: #f9f9f9;
     ;
@@ -457,7 +459,7 @@ body {
 .model-box {
     background-color: #fff;
     padding: 44px 40px;
-    margin: 10px 10px 10px 0;
+    margin: 10px 5px 10px 0;
     border-radius: 5px;
     height: 420px;
 }
@@ -572,6 +574,16 @@ body {
     padding: 100px 0 50px 0;
     margin: 0;
 }
+.team_wrapper .team-gap{
+    padding-bottom: 120px;
+}
+.team_wrapper .team-gap2 {
+    padding: 0 40px 0 0px;
+}
+.team_wrapper .team-gap3 {
+    padding: 0 0px 0 40px;
+}
+
 
 .team_wrapper img {
     border-radius: 5px;
@@ -593,11 +605,7 @@ body {
     vertical-align: middle;
 }
 
-.team_wrapper .row {
-    padding: 0px 0;
-    margin: 70px 0 0 0;
-    align-items: center;
-}
+
 
 .team-content h1 {
     margin-top: 20px;
@@ -612,6 +620,7 @@ body {
     padding-right: 0;
     font-weight: 500;
     line-height: 32px;
+    font-size: 18px;
 }
 
 .team_wrapper img {
@@ -640,11 +649,12 @@ body {
     font-weight: 700;
     line-height: 52px;
 }
+.enterprise_wrapper h1 span {color: #017392;}
 
 .enterprise_wrapper p {
     font-size: 20px;
     font-weight: 400;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 .btn-box-3 {
@@ -656,10 +666,6 @@ body {
     padding: 5px;
 }
 
-.img-big {
-    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0)), url(../images/enterprise1.webp);
-    background-size: cover;
-}
 
 .btn-box-3 ul {
     list-style: none;
@@ -686,11 +692,9 @@ body {
     font-weight: 500;
     line-height: 180%;
 }
-.img-fluide {
-    background-image: linear-gradient(to top, #000, rgba(0, 0, 0, 0)), url('../images/enterprise1.webp') !important;
-}
 
-.img-btn:hover {   
+
+.img-btn:focus {   
     background-color: #2e8096;
     color: #fff; 
     font-weight: 700;
@@ -700,13 +704,14 @@ body {
     width: 100%;
     max-width: 100%;
     border-radius: 18px;
-    margin-top: 20px;
+
     min-height: 640px;
     background-size: auto, cover;
 }
 
 .img-container {
     position: relative;
+    margin-top: 55px;
 }
 
 .img-text {
@@ -733,23 +738,18 @@ body {
     font-weight: 500;
     line-height: 32px;
     max-width: 640px;
+    width: 100%;
     color: #fff;
 }
 
 
 
 
-
-
-
-
-
-
-
 .work_wrapper {
-    padding: 100px 0 50px 0;
+    padding: 50px 0 50px 0;
     margin: 0;
 }
+.work_wrapper .row {padding: 10px 0;}
 
 .work_wrapper h1 {
     margin-top: 20px;
@@ -932,7 +932,7 @@ body {
     background-color: #017392;
     ;
     border-radius: 22px;
-    padding: 65px 42px 75px;
+    padding: 30px 42px 30px;
 }
 
 .dev-left {
@@ -940,6 +940,8 @@ body {
     max-width: 80%;
     width: 100%;
     position: relative;
+    padding: 0 0px 0 60px;
+
 }
 
 .dev-content {
@@ -994,7 +996,7 @@ body {
     color: #fff;
     font-size: 32px;
     font-weight: 300;
-    line-height: 32px;
+    line-height: 70px;
 }
 
 .dev-left h2 {
@@ -1009,7 +1011,7 @@ body {
 }
 
 .tech-box {
-    padding: 20px;
+    padding: 18px;
     border-radius: 10px;
     border: 1px solid rgb(192, 187, 187);
     margin: 20px 0;
@@ -1018,7 +1020,7 @@ body {
 
 .tech-box img {
     border-radius: 8px;
-    margin: 10px 0;
+    margin:  0 0 10px 0;
     padding: 0;
 }
 
@@ -1146,6 +1148,8 @@ body {
     line-height: 32px;
 }
 
+
+
 .form {
     min-height: 60px;
     background-color: #f9f9f9;
@@ -1247,12 +1251,14 @@ body {
 .meet-box {
     background-color: #f9f9f9;
     padding: 32px;
-    margin: 30px 0;
+    margin: 30px 00 0px 60px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .form_wrapper img {
     border-radius: 8px;
+    margin:  0 0 0 60px;
 }
 
 
@@ -1336,6 +1342,7 @@ body {
     min-height: 48px;
     padding: 0;
 }
+.bi {width: 100%;}
 
 .footer_wrapper p {
     color: #fff;
