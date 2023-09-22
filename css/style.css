@@ -1611,14 +1611,323 @@ background-image:  linear-gradient(to left, #fff 5%, rgba(255, 255, 255, 0));;}
     margin: 0;
 }
 
-
-
-
-
-
-
-
 /* < Design_page_End > */
+
+
+
+/* < case_page_start > */
+
+.case_wrapper {
+    padding: 100px 0 50px 0;
+    margin: 0;
+}
+
+.case-top {
+    text-align: center;
+}
+
+.case-top h1 span {
+    color: #017392;
+}
+
+
+
+.case-top h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    line-height: 56px;
+}
+
+.case-top p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.case-main {width: 100%; max-width: 100%; display: flex; padding: 50px 0 0 0; margin: 50px 0 0 0 ;background-color: #edf6ff;
+    border-radius: 18px;}
+.case-left {float: left; max-width: 38%; width: 100%; padding: 0; margin: 0;}
+.case-right {float: right; max-width: 62%; width: 100%; padding: 0; margin: 0;}
+.case-right img {width: 100%; max-width: 100%; }
+
+.case-main2 {width: 100%; max-width: 100%; display: flex; padding: 50px 0 0 0; margin: 50px 0 0 0 ;background-color: #f2f7ec;
+border-radius: 18px;}
+
+.case-main3 {width: 100%; max-width: 100%; display: flex; padding: 50px 0 0 0; margin: 50px 0 0 0 ;background-color: #F4F4FF;;
+border-radius: 18px;}
+
+.case-main4 {width: 100%; max-width: 100%; display: flex; padding: 50px 0 0 0; margin: 50px 0 0 0 ;background-color: #dfeef3;
+border-radius: 18px;}
+
+.case-main5 {width: 100%; max-width: 100%; display: flex; padding: 50px 0 0 0; margin: 50px 0 0 0 ;background-color: #ffefe9;
+border-radius: 18px;}
+
+
+.case-text1 {
+        padding: 0 0 0 20px;
+            margin: 0;
+       } 
+
+.case-text2 {
+ padding: 0 0 0 20px;
+     margin: 0;
+}   
+
+.case-text3 {
+    padding: 0 0 0 20px;
+        margin: 0;
+}
+
+.case-text4 {
+    padding: 0 0 0 20px;
+        margin: 0;
+}   
+
+.case-text5 {
+    padding: 0 0 0 20px;
+        margin: 0;
+}  
+   
+
+.case-study {border: none;
+    text-align: left;
+    padding: 20px 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    align-items: center;
+    display: flex;
+}
+.case-study .bi {
+    font-size: 22px;
+    padding-left: 5px;}
+.case-study:hover .bi {
+        padding-left: 9px;
+     transition: all 0.4s ease;}
+
+
+.case-text1 h2 {
+    margin: 20px 0 5px 0;
+    color: #4e87c1;
+    font-size: 41.32px;
+    line-height: 44.97px;
+    padding: 0;
+}
+
+.case-text1 h4 {
+    background-color: hsla(210, 100.00%, 90.85%, 1.00);
+    color: #4e87c1;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+.case-text1 h3 {
+    color: #3a5f6b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.case-text1 p {
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3a5f6b;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.case-text2 h2 {
+    margin: 20px 0 5px 0;
+    color: hsla(87.39130434782608, 29.48%, 43.05%, 1.00);
+
+    font-size: 41.32px;
+    line-height: 44.97px;
+    padding: 0;
+}
+
+.case-text2 h4 {
+    background-color: hsla(87.27272727272735, 50.11%, 76.76%, 1.00);
+    color: hsla(87.39130434782608, 29.48%, 43.05%, 1.00);
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+.case-text2 h3 {
+    color: #3a5f6b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.case-text2 p {
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3a5f6b;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+.case-text3 h2 {
+    margin: 20px 0 5px 0;
+    color: #6c6cb6;;
+
+    font-size: 41.32px;
+    line-height: 44.97px;
+    padding: 0;
+}
+
+.case-text3 h4 {
+    background-color: hsla(245.08474576271186, 97.09%, 91.06%, 1.00);
+    color: #6c6cb6;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+.case-text3 h3 {
+    color: #3a5f6b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.case-text3 p {
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3a5f6b;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+.case-text4 h2 {
+    margin: 20px 0 5px 0;
+    color: #2e8096;;;
+
+    font-size: 41.32px;
+    line-height: 44.97px;
+    padding: 0;
+}
+
+.case-text4 h4 {
+    background-color: #85d6f0;
+    color: #2e8096;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+.case-text4 h3 {
+    color: #3a5f6b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.case-text4 p {
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3a5f6b;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+.case-text5 h2 {
+    margin: 20px 0 5px 0;
+    color: #f08357;
+
+    font-size: 41.32px;
+    line-height: 44.97px;
+    padding: 0;
+}
+
+.case-text5 h4 {
+    background-color: hsla(16.363636363636378, 100.00%, 88.39%, 1.00);
+    color: #f08357;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+
+.case-text5 h3 {
+    color: #3a5f6b;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 700;
+}
+
+.case-text5 p {
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #3a5f6b;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* < case_page_End > */
 
 
 
