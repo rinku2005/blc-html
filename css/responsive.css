@@ -14,7 +14,7 @@
 @media only screen and (max-width: 1200px) { 
 
      /* case-page-start */
-
+     .next_wrapper h1 {    font-size: 30px;  line-height: 56px;}
      .case-top h1  {margin-top: 20px; margin-bottom: 10px; font-size: 30px; line-height: 56px;}
       /* case-page-end */
 
@@ -199,12 +199,20 @@
     .case-text1 p {    padding-right: 42px;}
 
     .case-row .col-md-12 {padding: 0 0;}
+
+
+
+    .phone-right {width: 100%;    padding: 0px 0 0 121px; }
+
+    .next_wrapper p {  padding-right: 0px;  }
      /* case-page-end */
 
 
 }
 
 @media only screen and (max-width: 768px) {
+
+    .navbar {padding: 0 35px;}
 
     .login-btn {padding: 5px 10px; margin: 10px 10px 0 0;font-size: 12px; }
     .topnav img {max-width: 100px; }
@@ -265,9 +273,22 @@
     .tech-box  p {padding: 5px 0; margin: 0; font-size: 16px; text-align: center; }
 
     .form  {font-size: 16px; padding: 12px;}
-    .form_wrapper {
-        padding: 50px 00;}
+    .form_wrapper { padding: 50px 00;}
   
+    /* case-page-start */  
+
+
+    .client_bg ul { padding: 0 0 0 0px; ; border-left:  none; }
+    .client_bg p {padding: 0;}
+    .client_bg ul li p {padding:  0 0 0px 0;font-size: 15px; font-weight: 500;line-height: 17.41px; margin-bottom: 32px;}
+
+    .client_bg h2 {color: #2e8096; margin-top: 0px;}
+
+
+    .phone-right {width: 100%;    padding: 0px 0 0 0px; }
+
+
+    /* case-page-end */    
 }
     
 
@@ -302,6 +323,15 @@
 
   /* 
     // design-page-end   // */
+
+ /*  // case-page-end   // */
+    .phone-left img{   
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;    max-height: 100%;  }
+
+/*  // case-page-end   // */
+
 }
 @media only screen and (max-width: 500px) {
 
@@ -385,6 +415,13 @@
     .case-text1 p {    padding-right: 0px;}
 
     .case-top h1  {font-size: 36px;   line-height: 45px;}
+
+    .next_wrapper h1 {  
+        font-size: 36px;
+        line-height: 45px;  
+    }
+
+    .phone-main {display: block;} 
      /* case-page-end */
 
     
