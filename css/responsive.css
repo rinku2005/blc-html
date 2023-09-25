@@ -201,8 +201,8 @@
     .case-row .col-md-12 {padding: 0 0;}
 
 
-
-    .phone-right {width: 100%;    padding: 0px 0 0 121px; }
+    
+   
 
     .next_wrapper p {  padding-right: 0px;  }
      /* case-page-end */
@@ -276,7 +276,8 @@
     .form_wrapper { padding: 50px 00;}
   
     /* case-page-start */  
-
+    .case-left {float: none; max-width: 100%; padding: 0 21px;}
+    
 
     .client_bg ul { padding: 0 0 0 0px; ; border-left:  none; }
     .client_bg p {padding: 0;}
@@ -284,6 +285,13 @@
 
     .client_bg h2 {color: #2e8096; margin-top: 0px;}
 
+    .pro-main {display:block;}
+    .pro-left {padding-top: 0px; float: none; max-width: 100%;}
+    .pro-right {float: none; max-width: 100%; width: 100%;}
+
+    .pro-box {padding: 32px;}
+    .case2-box-sm {min-height: 233px;}
+    .case-2-box {min-height: 400px;}
 
     .phone-right {width: 100%;    padding: 0px 0 0 0px; }
 
@@ -422,6 +430,17 @@
     }
 
     .phone-main {display: block;} 
+    .phone-left {
+        max-width: 100%;
+        width: 100%;
+       
+    }
+    
+    .phone-right {
+        max-width: 100%;
+        width: 100%;
+       
+    }
      /* case-page-end */
 
     
