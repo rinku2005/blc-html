@@ -14,6 +14,10 @@
 @media only screen and (max-width: 1200px) { 
 
      /* case-page-start */
+     .design_wrapper h1 {    font-size: 30px;
+        line-height: 56px;}
+    
+
      .next_wrapper h1 {    font-size: 30px;  line-height: 56px;}
      .case-top h1  {margin-top: 20px; margin-bottom: 10px; font-size: 30px; line-height: 56px;}
       /* case-page-end */
@@ -200,9 +204,46 @@
 
     .case-row .col-md-12 {padding: 0 0;}
 
+    .case-main {display: block;}
+    .case-left {width: 100%; max-width: 100%;}
+    .case-text1 {max-width: 100%;; width: 100%;}
 
-    
+    .case-main2_1 {display: block;}
+   .case-text2-1 {max-width: 100%;; width: 100%;}
+
+   .case-main2_2 {display: block;}
+   .case-text2-2 {max-width: 100%;; width: 100%;}
+
+   .case-main2_3 {display: block;}
+   .case-text2-3 {max-width: 100%;; width: 100%;}
+
+   .case-main2_4 {display: block;}
+   .case-text2-4 {max-width: 100%;; width: 100%;}
+
+   .case-main2_5 {display: block;}
+   .case-text2-5 {max-width: 100%;; width: 100%;}
+
+
+   .owner-main {display: block; }
+   .owner-left {float: none; max-width: 100%; width: 100%; padding: 0px; margin: 0 0px 00 0; }
+   .owner-right {float: none; max-width: 100%; width: 100%; padding: 0px; margin: 0 0px 00 0px;}
+   .pro-left {padding-top: 0px; float: none; max-width: 100%;  padding: 10px 30px 0 0;}
+
+   .owner-left {padding:   32px 0; }
+   .owner-right {margin: 20px 00 0 0 ; padding: 50px 0 0 0 ;
+    border-top: 1px solid #70c4db; border-left: 0;text-align: center;}
    
+    .owner-right  img {max-width: 30% ; width: 100%;}
+   .start-btn {
+    padding:10px  25px;
+    margin: 15px  0 ;
+   }
+   .pro-box h3 {
+    line-height: 32px;
+    margin: 16px 0 25px 0;
+    padding: 0px 0;
+}  
+
 
     .next_wrapper p {  padding-right: 0px;  }
      /* case-page-end */
@@ -286,12 +327,12 @@
     .client_bg h2 {color: #2e8096; margin-top: 0px;}
 
     .pro-main {display:block;}
-    .pro-left {padding-top: 0px; float: none; max-width: 100%;}
+    .pro-left {padding-top: 0px; float: none; max-width: 100%; padding: 10px 20px 0 0; }
     .pro-right {float: none; max-width: 100%; width: 100%;}
 
     .pro-box {padding: 32px;}
     .case2-box-sm {min-height: 233px;}
-    .case-2-box {min-height: 400px;}
+    .case-2-box {min-height: 325px;}
 
     .phone-right {width: 100%;    padding: 0px 0 0 0px; }
 
@@ -383,6 +424,15 @@
     .textarea  {font-size: 14px; margin: 5px 0;  }
     .submit {font-size: 14px;}
     .form_wrapper p {line-height: 130%; padding: 10px 0 20px 0;}
+
+
+
+    /* // case-page-start// */
+    
+    .phone-main p { padding: 10px 0 10px 0px;}
+    .phone-main h1 { padding: 10px 0 10px 0px;}
+
+    /* // case-page-end// */
 }
 
 @media only screen and (max-width: 460px) {
@@ -408,12 +458,14 @@
     .enterprise_wrapper h1 {       font-size: 32px; line-height: 42px;}
     .enterprise_wrapper p {    max-width: 100%; width: 100%; }
 
-    .design_wrapper h1 {    font-size: 32px;
-        line-height: 41px;}
+    .design_wrapper h1 {    font-size: 36px;
+        line-height: 45px;}
     .design_wrapper p { text-align: center;
         font-size: 22px;
         line-height: 36px;
     }
+    .design_wrapper h2 {
+        line-height: 28px; padding: 0;}
 
 
     /* case-page-start */
@@ -441,6 +493,18 @@
         width: 100%;
        
     }
+
+    .sm-coma {    text-align: right;} 
+    .owner-box {padding: 50px 0 ;}
+    .owner {display: block; padding: 0 14px;}
+    .owner-right { margin: 20px 0px 00 0px;  }
+    .owner-left {padding: 0;}
+   .peregraph{    font-size: 20px;
+       font-weight: 500;
+       line-height: 32px;
+       margin-top: 12px;
+       padding: 0px;
+   }
      /* case-page-end */
 
     

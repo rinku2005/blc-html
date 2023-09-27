@@ -69,7 +69,7 @@ body {
     padding: 6px;
 }
 
-.dropdown-menu a:hover {
+.dropdown-menu a:focus {
     background-color: none;
     color: #2e8096;
 }
@@ -85,7 +85,13 @@ body {
 .nav-link {
     color: #000 !important;
 }
+.nav-link:hover {
+    color: #017392 !important;
+}
 
+.nav-link:focus {
+    color: #017392 !important;
+}
 
 
 .navbar {
@@ -1507,6 +1513,8 @@ body {
     align-items: center;
     display: flex;
     margin: 32px 0;
+    flex-wrap: wrap;
+    grid-row-gap: 16px;
 }
 
 .design-btn {
@@ -1522,6 +1530,7 @@ body {
     font-weight: 500;
     line-height: 26px;
     display: flex;
+   
 }
 
 
@@ -2508,7 +2517,7 @@ body {
     font-size: 28px;
     line-height: 52px;
     font-weight: 700;
-    padding: 10px 0;
+    padding: 15px 0;
     margin: 0;
 
 }
@@ -2608,11 +2617,10 @@ body {
     width: 100%;
 }
 
-.pro-left {padding-top: 10px;
+.pro-left {    padding: 10px 62px 0 0;
     float: left;
     max-width: 35%;
     width: 100%;
-    padding-right: 30px;
 }
 
 .pro-right {
@@ -2680,6 +2688,17 @@ body {
     line-height: 52px;
 }
 
+.start-btn {color: #fff;
+    text-align: center;
+    border: none;
+    background-color: #2e8096;
+    border-radius: 6.24px;
+    padding:10px  70px;
+    font-size: 18px;
+    line-height: 33.3px;
+    margin: 10px 0 0 0 ;
+   }
+
 .container-desktop {max-width: 1280px ; width: 100%; }
 
 .casebtn-box {padding: 0%;}
@@ -2691,14 +2710,25 @@ body {
 }
 
 .owner-main {display: flex; width: 100%;justify-content:center;}
-.owner-left {float: left; max-width: 70%; width: 100%; padding: 0px; margin: 0 20px 00 0; }
-.owner-right {float: right; max-width: 30%; width: 100%; padding: 0px; margin: 0 0px 00 20px;}
+.owner-left {float: left; max-width: 70%; width: 100%; padding: 0px; margin: 0 20px 00 0; padding: 50px; }
+.owner-right {float: right; max-width: 30%; width: 100%; padding: 0px; margin: 0 0px 00 20px;   
+     border-left: 1px solid #70c4db;}
+.peregraph{    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 12px;
+    padding: 0 36px;
+}
+.owner-left  h3 {    font-weight: 700; font-size: 16px ; padding: 10px 0;}
+.sm-coma {    display: flex;
+    align-items: stretch;}    
+.owner-right img {width: 100%; max-width: 100%;}
 
 .owner {display: flex ;justify-content: space-between;}
 
 .next_wrapper {
     background-color: #f9f9f9;
-    padding: 50px 0px;
+    padding: 60px 0px 50px 0;
 
 }
 
