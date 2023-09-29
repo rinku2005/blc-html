@@ -1755,7 +1755,7 @@ body {
     max-width: 100%;
     display: flex;
     padding: 50px 0 0 0;
-    margin: 50px 0 0 0;
+    margin: 0;
     background-color: #edf6ff;
     border-radius: 18px;
 }
@@ -2390,10 +2390,11 @@ body {
 }
 
 
-.case-left a {
+.case-left a { display: flex; align-items: center;
     color: #000;
     text-decoration: none;
 }
+.case-left a .bi {font-size: 22px;padding-left: 5px; }
 
 .case-left a:hover {
     text-decoration: none;
@@ -2404,6 +2405,8 @@ body {
     text-decoration: none;
     color: #000
 }
+
+.case-left a:hover .bi {padding-left: 10px; transition: all 0.4s ease;}
 
 
 .casebtn-box {
@@ -2541,6 +2544,11 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.phone_wrapper2 {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 .container-phone {
     max-width: 1024px;
@@ -2555,6 +2563,15 @@ body {
     justify-content: space-around;
     width: 100%;
 }
+
+.phone-main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
 .phone-left {
     max-width: 50%;
     width: none;
@@ -2602,6 +2619,20 @@ body {
     font-weight: 300;
 }
 
+.phone-main2 h1 {
+    margin-top: 0;
+    padding: 10px 0 10px 54px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.phone-main2 p {
+    margin-left: 0;
+    padding: 10px 0 10px 54px;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300;
+}
 .pro_wrapper {
     padding-top: 80px;
     background-color: #f9f9f9;
@@ -2699,7 +2730,7 @@ body {
     margin: 10px 0 0 0 ;
    }
 
-.container-desktop {max-width: 1280px ; width: 100%; }
+.container-desktop {max-width: 1280px ; width: 100%;  }
 
 .casebtn-box {padding: 0%;}
 
@@ -2709,10 +2740,10 @@ body {
     border: 1px solid #70c4db; border-radius: 20px; ;
 }
 
-.owner-main {display: flex; width: 100%;justify-content:center;}
-.owner-left {float: left; max-width: 70%; width: 100%; padding: 0px; margin: 0 20px 00 0; padding: 50px; }
-.owner-right {float: right; max-width: 30%; width: 100%; padding: 0px; margin: 0 0px 00 20px;   
-     border-left: 1px solid #70c4db;}
+.owner-main {display: flex; width: 100%;justify-content:center; padding: 50px;}
+.owner-left {float: left; max-width: 70%; width: 100%; padding: 0px; margin: 0 0px 00 0; }
+.owner-right {float: right; max-width: 30%; width: 100%; margin: 0 0px 00 20px;   
+     border-left: 1px solid #70c4db; padding-left: 20px ; display: flex;align-items: center;}
 .peregraph{    font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -2720,9 +2751,11 @@ body {
     padding: 0 36px;
 }
 .owner-left  h3 {    font-weight: 700; font-size: 16px ; padding: 10px 0;}
+.owner-left  h3 span {color: #2a8eda; padding: 0 px ;}
+.owner-left  h3 span2 {color: #f37e56;; padding: 0 10px 0 0;}
 .sm-coma {    display: flex;
     align-items: stretch;}    
-.owner-right img {width: 100%; max-width: 100%;}
+.owner-right img {width: 100%; max-width: 100%; }
 
 .owner {display: flex ;justify-content: space-between;}
 
@@ -2745,6 +2778,9 @@ body {
     font-weight: 500;
 }
 
+.lemon-heading {color: #bdaa68;;}
+.remove-heading {    color: #5e70c5;}
+
 /* // Cash-photo-inner-page1---end // */
 
 /* < case_page_End > */
@@ -2758,7 +2794,7 @@ body {
     grid-column-gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: flex;
 }
 

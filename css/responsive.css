@@ -224,13 +224,14 @@
    .case-text2-5 {max-width: 100%;; width: 100%;}
 
 
-   .owner-main {display: block; }
+   .owner-main {display: block; padding: 0; }
    .owner-left {float: none; max-width: 100%; width: 100%; padding: 0px; margin: 0 0px 00 0; }
-   .owner-right {float: none; max-width: 100%; width: 100%; padding: 0px; margin: 0 0px 00 0px;}
+   .owner-right {float: none; max-width: 100%; width: 100%; padding: 0px; margin: 0 0px 00 0px;    display: flex;
+    justify-content: center;}
    .pro-left {padding-top: 0px; float: none; max-width: 100%;  padding: 10px 30px 0 0;}
 
    .owner-left {padding:   32px 0; }
-   .owner-right {margin: 20px 00 0 0 ; padding: 50px 0 0 0 ;
+   .owner-right {margin: 20px 00 0 0 ; padding:50px 0 0 0 ;
     border-top: 1px solid #70c4db; border-left: 0;text-align: center;}
    
     .owner-right  img {max-width: 30% ; width: 100%;}
@@ -243,6 +244,14 @@
     margin: 16px 0 25px 0;
     padding: 0px 0;
 }  
+
+    .phone-main2 {display: block;}
+    .phone-left {   max-width: 100%;  width: 100%; }
+    .phone-right {  max-width: 100%; width: 100%;  }
+
+    .phone-main2 p { padding: 10px 0 10px 0px; text-align: center;}
+    .phone-main2 h1 { padding: 10px 0 10px 0px;text-align: center;}
+
 
 
     .next_wrapper p {  padding-right: 0px;  }
@@ -432,6 +441,9 @@
     .phone-main p { padding: 10px 0 10px 0px;}
     .phone-main h1 { padding: 10px 0 10px 0px;}
 
+    .phone-main2 p { padding: 10px 0 10px 0px;}
+    .phone-main2 h1 { padding: 10px 0 10px 0px;}
+
     /* // case-page-end// */
 }
 
@@ -482,22 +494,15 @@
     }
 
     .phone-main {display: block;} 
-    .phone-left {
-        max-width: 100%;
-        width: 100%;
-       
-    }
-    
-    .phone-right {
-        max-width: 100%;
-        width: 100%;
-       
-    }
+    .phone-left {   max-width: 100%;  width: 100%; }
+    .phone-right {  max-width: 100%; width: 100%;  }
 
+   
     .sm-coma {    text-align: right;} 
     .owner-box {padding: 50px 0 ;}
     .owner {display: block; padding: 0 14px;}
-    .owner-right { margin: 20px 0px 00 0px;  }
+    .owner-right { margin: 20px 0px 00 0px;   }
+    .owner-right  img { max-width: 50% ; width: 100%; }
     .owner-left {padding: 0;}
    .peregraph{    font-size: 20px;
        font-weight: 500;
