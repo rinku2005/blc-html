@@ -1128,6 +1128,8 @@ body {
     margin: 0;
 }
 
+.tech-box a {text-decoration: none; color: black;}
+.tech-box a:hover {text-decoration: none; color: black;}
 .tech-box h2 {font-weight: 700;
     padding: 0;
     margin: 10px 0;
@@ -2848,5 +2850,33 @@ body {
     font-weight: 400;
 }
 
+/* < Blob_inner-page_Start > */
+
+.date_wrapper {padding: 100px 0; margin: 0;}
+
+.date_wrapper h2 {    font-size: 24px; font-weight: 400;
+    line-height: 40px;}
+.date_wrapper h1 {    font-size: 42px;font-weight: 600;
+    line-height: 58px;margin-top: 20px;
+    margin-bottom: 10px;
+}
+.date-box {padding: 50px 0;}
+
+
+.info_wrapper { padding: 50px 0; margin: 0;}
+.info-main {display: flex; padding: 0; margin: 0; width: 100%;}
+.info-left {float:left; max-width: 60%; width: 100%;}
+.info-right {float:right; max-width: 40%; width: 100%;}
+.info-right ul {list-style: none; display: flex; flex-wrap: wrap;}
+.info-right ul li {    padding: 0; color: #2e8096;
+    border: 1px solid #2e8096; font-size: 16px;
+    border-radius: 21px;
+    margin-bottom: 10px;
+   padding: 10px 12px; justify-content: space-between;}
+.info-right ul li a {text-decoration: none;}
+.info-right ul li a:hover {background-color: #2e8096; color: #fff;}
+
+
+/* < Blob_inner-page_End > */
 
 /* < Blob_page_End > */
