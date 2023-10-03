@@ -1112,7 +1112,7 @@ body {
 .tech-box img {
     border-radius: 8px;
     margin: 0px 0 10px 0;
-    padding: 0;
+    padding: 0; width: 100%;
 }
 
 .tech_wrapper h1 {
@@ -2852,29 +2852,135 @@ body {
 
 /* < Blob_inner-page_Start > */
 
-.date_wrapper {padding: 100px 0; margin: 0;}
+.date_wrapper {padding: 100px 0 50px 0; margin: 0;}
 
 .date_wrapper h2 {    font-size: 24px; font-weight: 400;
     line-height: 40px;}
 .date_wrapper h1 {    font-size: 42px;font-weight: 600;
     line-height: 58px;margin-top: 20px;
-    margin-bottom: 10px;
 }
+
 .date-box {padding: 50px 0;}
-
-
 .info_wrapper { padding: 50px 0; margin: 0;}
 .info-main {display: flex; padding: 0; margin: 0; width: 100%;}
-.info-left {float:left; max-width: 60%; width: 100%;}
-.info-right {float:right; max-width: 40%; width: 100%;}
-.info-right ul {list-style: none; display: flex; flex-wrap: wrap;}
-.info-right ul li {    padding: 0; color: #2e8096;
-    border: 1px solid #2e8096; font-size: 16px;
+.info-left {float:left; max-width: 60%; width: 100%; padding-left: 10px; margin: 0;}
+
+.info-right {float:right; max-width: 40%; width: 100%; padding-left: 80px;}
+.info-right ul {list-style: none; display: flex; flex-wrap: wrap; padding: 0; margin: 0;}
+.info-right ul li {    padding: 0;
+    border: 1px solid #2e8096; font-size: 16px;    margin: 10px 10px 0 0px;
+    border-radius: 21px;
+   padding: 4px 12px; }
+.info-right ul li:hover {background-color: #017392;}
+.info-right ul li a {text-decoration: none;  color: #2e8096;}
+.info-right ul li:hover a {color: #fff;}
+
+.info-right h2 {    margin-top: 0;
+    font-size: 28px;  
+    font-weight: 700;
+    line-height: 32px;
+}
+.info-right h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.info-right .Categories {display:inline-block ; padding: 0; margin: 0;}
+.info-right .Categories li {    border: 1px solid #2e8096;
     border-radius: 21px;
     margin-bottom: 10px;
-   padding: 10px 12px; justify-content: space-between;}
-.info-right ul li a {text-decoration: none;}
-.info-right ul li a:hover {background-color: #2e8096; color: #fff;}
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.newsletter {    color: #fff;
+    background-color: #2e8096;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 31px 21px;
+    position: sticky;
+    top: 80px;
+}
+
+.newsletter h1 {
+    color: #fff;    line-height: 32px;
+    font-size: 21px;  margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.newsletter .name {
+    min-height: 60px;
+    color: #0b0c0d;
+    background-color: #f9f9f9;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    padding: 16px;
+    font-size: 18px;
+    line-height: 25px;
+    height: 38px;
+}
+.newsletter .subs {
+    color: #0b0c0d;
+    background-color: #fff;
+    border-style: none;
+    border-color: #fff;
+    height: 60px;    border-radius: 6px;
+    padding: 0 21px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.subs:hover {
+    background-color: #e0e0e0;}
+
+.info-left p {margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.list { margin:  0 0px ;   font-size: 16px;
+    line-height: 32px;  font-weight: 700;;
+}
+
+.info-left  h1 {    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.info-left  h2 {    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.info-left  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.info-left h4 {font-weight: 700; font-size: 18px;
+    line-height: 28px; padding-bottom: 10px ;}
+
+
+.info-left  ul li {    margin-bottom: 10px;font-size: 16px;
+    line-height: 32px;}
+
+.check_wrapper {    padding-top: 80px;margin: 0;
+    padding-bottom: 110px;
+    background-color: #f9f9f9;
+} 
+.check_wrapper h1 {    font-size: 36px; text-align: center;margin-bottom: 10px;
+    line-height: 42px; font-weight: 700;} 
+
+
+
 
 
 /* < Blob_inner-page_End > */

@@ -82,10 +82,251 @@
                         hardware, human user & other programs. There are certain diagrams included in an SRS to get the
                         real-time solution for software development. These diagrams mainly rely on factors like
                         operational speed, response time, availability, portability, security, and speed of recovery
-                        from adverse events.</p>
+                        from adverse events.<br>
+                        <br>
 
-                    <p>Here we’re going to deeply discuss the various diagrams used in an SRS document along with the
-                        suitable examples.</p>
+                        Here we’re going to deeply discuss the various diagrams used in an SRS document along with the
+                        suitable examples.
+                    </p>
+
+                    <h1>1. Use case diagram</h1>
+                    <h2>Definition</h2>
+                    <p>A use case diagram is a graphical drawing of a user’s viable interactions with a system. A use
+                        case diagram indicates various use cases and different types of users the system has. Use case
+                        diagrams will often be accompanied by other types of diagrams.</p>
+
+                    <h2>Notation & Symbol</h2>
+                    <p>If there's a diagram then there's a symbol/ notation for sure. They are very clear & don't
+                        involve as many types of symbols as other diagrams.</p>
+
+                    <ul class="list">
+                        <li>Use cases:</li>
+                    </ul>
+                    <p>Horizontally egg-shaped symbols that represent the different uses that a user might have.</p>
+
+                    <ul class="list">
+                        <li>Actors:</li>
+                    </ul>
+                    <p>Stick figures that show the user actually employing the use cases.</p>
+
+                    <ul class="list">
+                        <li>Associations:</li>
+                    </ul>
+
+                    <p>A line symbol showing the relationship between actors and use cases. It is necessary to know
+                        which actors are associated with which use cases.</p>
+
+                    <ul class="list">
+                        <li>Packages:</li>
+                    </ul>
+
+                    <p>A UML shape that enables putting different elements into groups.</p>
+
+                    <h3>Example</h3>
+                    <img class="img-fluid" src="images/consept-1.jpg">
+
+                    <h1>2. Data flow diagram</h1>
+                    <h2>Definition</h2>
+                    <p>The data flow diagram shows how information flows through a process or system. Data flow includes
+                        data inputs/ outputs, data storage, and the various sub-processes the data moves through.</p>
+
+                    <h2>Notation & Symbol</h2>
+                    <p>The two main types of notation are used for data flow diagrams. One is Yourdon-Coad and another
+                        one is Gane-Sarson’s notation. The two different notation styles for different uses. Processes,
+                        data stores, external entities, and data flows are the four main entities of the data flow
+                        diagram.</p>
+
+                    <ul class="list">
+                        <li>Process:</li>
+                    </ul>
+                    <p>A name ‘process’ given directly related to its function. For example ‘ship order’ can be used for
+                        process & if we’re using Gane-Sarson notation- a rectangular box symbol is used to showcase the
+                        process.</p>
+
+                    <ul class="list">
+                        <li>Data Storage:</li>
+                    </ul>
+                    <p>Data storage is represented with an arrow symbol. A symbol that indicates the flow direction.
+                        This data could be electronic, written, or verbal- any of them.</p>
+
+                    <ul class="list">
+                        <li>Associations:</li>
+                    </ul>
+
+                    <p>A line symbol showing the relationship between actors and use cases. It is necessary to know
+                        which actors are associated with which use cases.</p>
+
+
+                    <h3>Example</h3>
+                    <img class="img-fluid" src="images/consept-2.jpg">
+
+                    <h1>3. Sequence Diagram</h1>
+                    <h2>Definition</h2>
+                    <p>Sequence Diagrams are interaction diagrams that detail how operations are working. They find the
+                        interaction between objects in the context of a collaboration. Sequence Diagrams are based on
+                        time and they show the correct order of the interaction. There is a vertical axis of the diagram
+                        to represent time, what messages are sent, and when.</p>
+
+                    <h2>Notation & Symbol</h2>
+                    <ul class="list">
+                        <li>Actor:</li>
+                    </ul>
+                    <p>A symbol that is played by an entity that interacts with the subject. External to the subject in
+                        the sense that an instance of an actor is not a part of the instance of its related subject.</p>
+
+                    <ul class="list">
+                        <li>Lifeline:</li>
+                    </ul>
+                    <p>A lifeline symbol shows an individual participant in the Interaction.</p>
+
+                    <ul class="list">
+                        <li>Activations:</li>
+                    </ul>
+
+                    <p>Activation- A thin rectangle on a lifeline symbol used in a sequence diagram. It represents the
+                        period during which an element is performing an operation.</p>
+
+                    <h2>Various Messages</h2>
+                    <ul class="list">
+                        <li>Call Message:</li>
+                    </ul>
+                    <p>A message defines a particular communication bond between the Lifelines of an Interaction.</p>
+
+                    <ul class="list">
+                        <li>Return Message :</li>
+                    </ul>
+                    <p>A message defines a particular responsive communication between the Lifelines of an Interaction.
+                    </p>
+
+                    <ul class="list">
+                        <li>Self Message:</li>
+                    </ul>
+
+                    <p>A self message represents the invocation of a message of the same lifeline.</p>
+
+                    <ul class="list">
+                        <li>Recursive messages:</li>
+                    </ul>
+
+                    <p>A recursive message is a kind of message that represents the invocation of a message of the same
+                        lifeline.</p>
+
+
+                    <h3>Example</h3>
+                    <img class="img-fluid" src="images/consept-3.jpg">
+
+
+
+                    <h1>4. Class Diagram</h1>
+                    <h2>Definition</h2>
+                    <p>Class diagrams are one of the most useful types of diagrams as they figure out the structure of a
+                        specific system by creating its classes, attributes, operations, designs, and relationships
+                        between objects.</p>
+
+                    <h2>Notations & Symbols</h2>
+                    <h4>Member access modifiers</h4>
+                    <p>All classes have different access <strong> levels</strong> depending on the access modifier
+                        (visibility). Here are
+                        the access levels with their corresponding symbols:</p>
+                    <ul>
+                        <li>Public (+)</li>
+                        <li>Private (-)</li>
+                        <li>Protected (#)</li>
+                        <li>Package (~)</li>
+                        <li>Derived (/)</li>
+                        <li>Static (underlined)</li>
+                    </ul>
+
+                    <h2>Classes</h2>
+                    <p>Particular for a system, a template for creating objects and implementing behavior.</p>
+
+                    <ul>
+                        <li>Name- The first row in a class shape.</li>
+                        <li>Attributes- The second row in a class shape. A separate line is used to show every attribute
+                            of the class.</li>
+                        <li>Methods- The third row in a class shape. Recognized as operations, methods are displayed in
+                            list format.</li>
+                    </ul>
+
+                    <ul class="list">
+                        <li>Data types:</li>
+                    </ul>
+                    <p>Classifiers that define data values. The values that can model both primitive types and
+                        enumerations.</p>
+
+                    <ul class="list">
+                        <li>Interfaces:</li>
+                    </ul>
+                    <p>A group of operation signs and attribute definitions that define cohesive behaviors.</p>
+
+                    <ul class="list">
+                        <li>Enumerations:</li>
+                    </ul>
+
+                    <p>Representations of user-side data types. An enumeration includes groups of identifiers that
+                        indicate values.</p>
+
+                    <ul class="list">
+                        <li>Artifacts:</li>
+                    </ul>
+                    <p>Model elements that represent stable entities like documents, databases in software systems.</p>
+
+
+                    <h3>Example</h3>
+                    <img class="img-fluid" src="images/conspet-4.jpg">
+
+
+
+
+                    <h1>5. Activity Diagram</h1>
+                    <h2>Definition</h2>
+                    <p>There are Activity diagrams, along with use case and state machine diagrams, which are counted as
+                        behavior diagrams. The main reason behind this- they describe what must actually happen in the
+                        modeled system.
+
+                    </p>
+
+                    <h2>Notation & Symbol</h2>
+
+
+                    <ul class="list">
+                        <li>Action:</li>
+                    </ul>
+                    <p>In SRS, actions are symbolized with round-edged rectangles.</p>
+
+                    <ul class="list">
+                        <li>Decision node:</li>
+                    </ul>
+                    <p>A conditional branch in the flow. It includes a single input and two or more outputs. The diamond
+                        shape is being used to show this node.</p>
+
+                    <ul class="list">
+                        <li>Control flows: </li>
+                    </ul>
+
+                    <p>Controller that shows the flow between continuous steps in the diagram.</p>
+                    <ul class="list">
+                        <li>Start node: </li>
+                    </ul>
+
+                    <p>Symbolizes the beginning of the activity. Generally, represented by a black-circle symbol.</p>
+                    <ul class="list">
+                        <li>End node: </li>
+                    </ul>
+
+                    <p>The end node is the final step in the activity. The outlined black circle is the notation of an
+                        end node.</p>
+
+
+                    <h3>Example</h3>
+                    <img class="img-fluid" src="images/consept-5.jpg">
+
+                    <p>&zwj;</p>
+
+                    <h2>In Ending</h2>
+                    <p>These are the main & most important diagrams available in the SRS documentation. They’re a
+                        perfect example of storing more data in just a diagram & carrying out more space for other
+                        activities. All diagrams are part of the process and trying to process & flow easier.</p>
 
                 </div>
                 <div class="info-right">
@@ -95,7 +336,7 @@
                         <li><a href="#">Mobile App Development</a></li>
                         <li><a href="#">CMS Development</a></li>
                         <li><a href="#">User Interface</a></li>
-                        <li><a href="#">User  Experence</a></li>
+                        <li><a href="#">User Experence</a></li>
                         <li><a href="#">Brand BUilding</a></li>
                         <li><a href="#">Cloud solution</a></li>
                         <li><a href="#">Cloud Migration</a></li>
@@ -105,11 +346,64 @@
                         <li><a href="#">Data Engineers</a></li>
                         <li><a href="#">Blog</a></li>
                     </ul>
+
+                    <h3>Categories:</h3>
+                    <ul class="Categories">
+                        <li><a href="#">Staff Augmentation</a></li>
+                        <li><a href="#">Cloud & DevOps</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Development</a></li>
+                    </ul>
+
+
+                    <div class="newsletter">
+                        <h1>Subscribe to our Newsletter</h1>
+                        <input class="name" placeholder="Name">
+                        <input class="name" placeholder="Email Address">
+                        <button class="subs">Subscribe</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
+
+    <div class="check_wrapper">
+        <div class="container">
+            <h1>Check our other posts</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="tech-box">
+                        <img class="img-fluid" src="images/b;og2-5.png ">
+                        <h2>Growth Guide – Steps to follow for post Mobile Application Launch
+
+                        </h2>
+                        <p>Yay! Congratulations, you’ve successfully launched your app. Do you think that’s the end
+                            of your efforts?....</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="tech-box">
+                        <img class="img-fluid" src="images/blog2-9.png  ">
+                        <h2> What is Minimum Viable Product (MVP)? What are the benefits of using it? </h2>
+                        <p>In the Techworld where there are enormous mobile apps, web apps, software tools, and
+                            digital products that make daily chores easier...</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="tech-box">
+                        <img class="img-fluid" src="images/tech-2.png  ">
+                        <h2>
+                            Characteristics of an Effective SRS document
+                        </h2>
+                        <p>There’s an SRS, then there’s an excellence SRS. So, what is the difference between these
+                            two? Obviously, the characteristics...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="footer_wrapper">
